@@ -20632,19 +20632,19 @@ weighted avg       0.94      0.93      0.93       107
 </ul>
 </li>
 <li>The apparent model performance of the optimal model is summarized as follows:<ul>
-<li><strong>Accuracy</strong> = 0.9068</li>
-<li><strong>Precision</strong> = 0.8181</li>
-<li><strong>Recall</strong> = 0.8852</li>
-<li><strong>F1 Score</strong> = 0.8503</li>
-<li><strong>AUROC</strong> = 0.9006</li>
+<li><strong>Accuracy</strong> = 1.0000</li>
+<li><strong>Precision</strong> = 1.0000</li>
+<li><strong>Recall</strong> = 1.0000</li>
+<li><strong>F1 Score</strong> = 1.0000</li>
+<li><strong>AUROC</strong> = 1.0000</li>
 </ul>
 </li>
 <li>The independent validation model performance of the optimal model is summarized as follows:<ul>
-<li><strong>Accuracy</strong> = 0.9130</li>
-<li><strong>Precision</strong> = 0.8181</li>
-<li><strong>Recall</strong> = 0.9000</li>
-<li><strong>F1 Score</strong> = 0.8571</li>
-<li><strong>AUROC</strong> = 0.9091</li>
+<li><strong>Accuracy</strong> = 0.9439</li>
+<li><strong>Precision</strong> = 0.9722</li>
+<li><strong>Recall</strong> = 0.8750</li>
+<li><strong>F1 Score</strong> = 0.9210</li>
+<li><strong>AUROC</strong> = 0.9300</li>
 </ul>
 </li>
 <li>Sufficiently comparable apparent and independent validation model performance observed that might be indicative of the absence of excessive model overfitting.</li>
@@ -22291,7 +22291,7 @@ weighted avg       0.95      0.94      0.94       107
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="1.7.5-Light-GBM">1.7.5 Light GBM<a class="anchor" id="1.7.5"></a><a class="anchor-link" href="#1.7.5-Light-GBM">¶</a></h3><p><a href="https://lightgbm.readthedocs.io/en/latest/pythonapi/lightgbm.LGBMClassifier.html">Light GBM (Light Gradient Boosting Machine)</a> is a variation of Gradient Boosting designed for efficiency and scalability. Unlike traditional boosting methods that grow trees level by level, LightGBM grows trees leaf-wise, choosing the most informative splits, leading to faster convergence. It also uses histogram-based binning to speed up computations. These optimizations allow LightGBM to train on large datasets efficiently while maintaining high accuracy. Its advantages include faster training speed, reduced memory usage, and strong predictive performance, particularly for large datasets with many features. However, LightGBM can overfit more easily than XGBoost if not properly tuned, and it may not perform as well on small datasets. Additionally, its handling of categorical variables requires careful preprocessing, and the leaf-wise tree growth can sometimes lead to instability if not controlled properly.</p>
+<h1 id="1.7.5-Light-GBM">1.7.5 Light GBM<a class="anchor" id="1.7.5"></a><a class="anchor-link" href="#1.7.5-Light-GBM">¶</a></h1><p><a href="https://lightgbm.readthedocs.io/en/latest/pythonapi/lightgbm.LGBMClassifier.html">Light GBM (Light Gradient Boosting Machine)</a> is a variation of Gradient Boosting designed for efficiency and scalability. Unlike traditional boosting methods that grow trees level by level, LightGBM grows trees leaf-wise, choosing the most informative splits, leading to faster convergence. It also uses histogram-based binning to speed up computations. These optimizations allow LightGBM to train on large datasets efficiently while maintaining high accuracy. Its advantages include faster training speed, reduced memory usage, and strong predictive performance, particularly for large datasets with many features. However, LightGBM can overfit more easily than XGBoost if not properly tuned, and it may not perform as well on small datasets. Additionally, its handling of categorical variables requires careful preprocessing, and the leaf-wise tree growth can sometimes lead to instability if not controlled properly.</p>
 <ol>
 <li>The <a href="https://lightgbm.readthedocs.io/en/latest/pythonapi/lightgbm.LGBMClassifier.html">light gbm</a> model from the <mark style="background-color: #CCECFF"><b>lightgbm</b></mark> Python library API was implemented.</li>
 <li>The model contains 4 hyperparameters for tuning:<ul>
@@ -22310,22 +22310,22 @@ weighted avg       0.95      0.94      0.94       107
 </ul>
 </li>
 <li>The apparent model performance of the optimal model is summarized as follows:<ul>
-<li><strong>Accuracy</strong> = 0.9362</li>
-<li><strong>Precision</strong> = 0.8870</li>
-<li><strong>Recall</strong> = 0.9016</li>
-<li><strong>F1 Score</strong> = 0.8943</li>
-<li><strong>AUROC</strong> = 0.9263</li>
+<li><strong>Accuracy</strong> = 1.0000</li>
+<li><strong>Precision</strong> = 1.0000</li>
+<li><strong>Recall</strong> = 1.0000</li>
+<li><strong>F1 Score</strong> = 1.0000</li>
+<li><strong>AUROC</strong> = 1.0000</li>
 </ul>
 </li>
 <li>The independent validation model performance of the optimal model is summarized as follows:<ul>
-<li><strong>Accuracy</strong> = 0.8985</li>
-<li><strong>Precision</strong> = 0.8421</li>
-<li><strong>Recall</strong> = 0.8000</li>
-<li><strong>F1 Score</strong> = 0.8205</li>
-<li><strong>AUROC</strong> = 0.8693</li>
+<li><strong>Accuracy</strong> = 0.9532</li>
+<li><strong>Precision</strong> = 0.9729</li>
+<li><strong>Recall</strong> = 0.9000</li>
+<li><strong>F1 Score</strong> = 0.9350</li>
+<li><strong>AUROC</strong> = 0.9425</li>
 </ul>
 </li>
-<li>Relatively large difference in apparent and independent validation model performance observed that might be indicative of the presence of moderate model overfitting.</li>
+<li>Sufficiently comparable apparent and independent validation model performance observed that might be indicative of the absence of excessive model overfitting.</li>
 </ol>
 </div>
 </div>
@@ -23883,19 +23883,19 @@ weighted avg       0.95      0.95      0.95       107
 </ul>
 </li>
 <li>The apparent model performance of the optimal model is summarized as follows:<ul>
-<li><strong>Accuracy</strong> = 0.9019</li>
-<li><strong>Precision</strong> = 0.8059</li>
-<li><strong>Recall</strong> = 0.8852</li>
-<li><strong>F1 Score</strong> = 0.8437</li>
-<li><strong>AUROC</strong> = 0.8971</li>
+<li><strong>Accuracy</strong> = 0.9968</li>
+<li><strong>Precision</strong> = 0.9916</li>
+<li><strong>Recall</strong> = 1.0000</li>
+<li><strong>F1 Score</strong> = 0.9958</li>
+<li><strong>AUROC</strong> = 0.9975</li>
 </ul>
 </li>
 <li>The independent validation model performance of the optimal model is summarized as follows:<ul>
-<li><strong>Accuracy</strong> = 0.9130</li>
-<li><strong>Precision</strong> = 0.8181</li>
-<li><strong>Recall</strong> = 0.9000</li>
-<li><strong>F1 Score</strong> = 0.8571</li>
-<li><strong>AUROC</strong> = 0.9091</li>
+<li><strong>Accuracy</strong> = 0.9626</li>
+<li><strong>Precision</strong> = 0.9736</li>
+<li><strong>Recall</strong> = 0.9250</li>
+<li><strong>F1 Score</strong> = 0.9487</li>
+<li><strong>AUROC</strong> = 0.9550</li>
 </ul>
 </li>
 <li>Sufficiently comparable apparent and independent validation model performance observed that might be indicative of the absence of excessive model overfitting.</li>
@@ -24549,7 +24549,7 @@ div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
                                                          PCA(n_components=10,
                                                              random_state=987654321))])),
                                        ('boosted_cb_model',
-                                        &lt;catboost.core.CatBoostClassifier object at 0x00000118FDC4EC00&gt;)]),
+                                        &lt;catboost.core.CatBoostClassifier object at 0x000002549441F680&gt;)]),
              n_jobs=-1,
              param_grid={'boosted_cb_model__iterations': [50, 100],
                          'boosted_cb_model__learning_rate': [0.01, 0.1],
@@ -24565,7 +24565,7 @@ div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
 <td><i class="copy-paste-icon" onclick="copyToClipboard('estimator',
                           this.parentElement.nextElementSibling)"></i></td>
 <td class="param">estimator </td>
-<td class="value">Pipeline(step...18FDC4EC00&gt;)])</td>
+<td class="value">Pipeline(step...549441F680&gt;)])</td>
 </tr>
 <tr class="user-set">
 <td><i class="copy-paste-icon" onclick="copyToClipboard('param_grid',
@@ -24751,7 +24751,7 @@ div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
 </table>
 </details>
 </div>
-</div></div></div></div></div><div class="sk-item"><div class="sk-estimator fitted sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-38" type="checkbox"/><label class="sk-toggleable__label fitted sk-toggleable__label-arrow" for="sk-estimator-id-38"><div><div>CatBoostClassifier</div></div></label><div class="sk-toggleable__content fitted" data-param-prefix="best_estimator___boosted_cb_model__"><pre>&lt;catboost.core.CatBoostClassifier object at 0x00000118FDBCC5F0&gt;</pre></div></div></div></div></div></div></div></div></div></div></div></div><script>function copyToClipboard(text, element) {
+</div></div></div></div></div><div class="sk-item"><div class="sk-estimator fitted sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-38" type="checkbox"/><label class="sk-toggleable__label fitted sk-toggleable__label-arrow" for="sk-estimator-id-38"><div><div>CatBoostClassifier</div></div></label><div class="sk-toggleable__content fitted" data-param-prefix="best_estimator___boosted_cb_model__"><pre>&lt;catboost.core.CatBoostClassifier object at 0x00000254F7FE7170&gt;</pre></div></div></div></div></div></div></div></div></div></div></div></div><script>function copyToClipboard(text, element) {
     // Get the parameter prefix from the closest toggleable content
     const toggleableContent = element.closest('.sk-toggleable__content');
     const paramPrefix = toggleableContent ? toggleableContent.dataset.paramPrefix : '';
